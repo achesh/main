@@ -34,5 +34,7 @@ set mouse=a
 set showcmd
 set ignorecase
 
+let NERDChristmasTree=1
 
+map <C-n> :NERDTree<CR>
 
