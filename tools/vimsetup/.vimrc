@@ -9,6 +9,7 @@
 "
 "
 set nocompatible
+
 syntax on
 set autoindent
 set tabstop=2
@@ -25,6 +26,9 @@ set listchars=tab:>-,trail:-
 set showmatch
 set autoread
 
+set title
+set titlestring=%F
+
 filetype on
 set nocp
 set nobackup
@@ -33,6 +37,8 @@ set nowb
 set mouse=a
 set showcmd
 set ignorecase
+
+colorscheme desert
 
 let NERDChristmasTree=1
 
